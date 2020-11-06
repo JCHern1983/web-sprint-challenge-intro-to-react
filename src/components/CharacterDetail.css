@@ -1,0 +1,24 @@
+.detailName {
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    color: yellow;
+}
+.profileContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.detailImage {
+    display: flex;
+    justify-content: center;
+    margin-left: 40%;
+    width: 20%;
+    height: 20%;
+}
+.detailStatus, .detailSpecies, .detailGender, .detailLocation, .detailOrigin {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: white;
+}

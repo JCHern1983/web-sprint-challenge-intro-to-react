@@ -1,8 +1,142 @@
-.App {
-  text-align: center;
+
+.characters {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+
 }
-.Header {
-  color: #443e3e;
-  text-shadow: 1px 1px 5px #fff;
+
+h1 {
+  font-size: 1.5rem;
+  color: black;
 }
-/* write your parent styles in here for your App.js */
+h2 {
+  font-size: 1rem;
+  color: black;
+}
+.CardInfo:hover {
+  text-decoration: underline solid white;
+  color: yellow;
+  margin-top: 5px;
+}
+.CardText:hover {
+  color: yellow;
+}
+.pic:hover {
+  -webkit-filter: grayscale(0) !important;
+	filter: grayscale(0) !important;
+  transition: transform .2s; 
+  transform: scale(1.1);
+
+}
+
+.pic {
+-webkit-filter: grayscale(100%) !important;
+	filter: grayscale(100%) !important;
+  width: 175px;
+  height: 175px;
+  margin-left: 20%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.text {
+margin-top: 2%;
+margin-bottom: 3%;
+max-width: 30%;
+
+}
+.BTN {
+  margin-left: 43.1%;
+  margin-top: 2%;
+}
+.BTN2 {
+  margin-left: 38%;
+  margin-top: 2%;
+}
+button {
+width: 100px;
+height: 25px;
+margin-left: 2%;
+background-color: gold; 
+color: black; 
+border: 2px solid grey;
+
+}
+
+.smallBTN {
+width: 75px;
+height: 25px;
+margin-left: 2%;
+background-color: gold; 
+color: black; 
+border: 2px solid grey;
+}
+
+.button:hover {
+  transition-duration: 0.4s;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 5vh;
+  background:grey;
+  color: white;
+}
+
+.nav-links {
+  width:  30%;
+  margin-left: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+}
+.links{
+ list-style: none;
+}
+nav, li:hover {
+  color:gold;
+}
+.Click {
+  color: gold;
+  margin-left: 11%;
+  margin-top: 2%;
+  font-size: 1rem;
+}
+.EpName {
+  display: flex;
+  justify-content: center;
+  color: yellow;
+}
+.EpDetail {
+  display: flex;
+  justify-content: center;
+}
+.SearchBar {
+  margin-top: 1%;
+  display:flex;
+  justify-content: center;
+}
+input {
+  text-transform: capitalize;
+  width: 220px;
+  height: 20px;
+}
+.PageCount {
+  display: flex;
+  justify-content: center;
+}
+.Reset {
+width: 150px;
+height: 25px;
+margin-left: 2%;
+background-color: gold; 
+color: black; 
+border: 2px solid grey;
+}
